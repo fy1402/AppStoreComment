@@ -12,6 +12,8 @@
 		064C27D31EA6FB4B005EBF7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064C27D11EA6FB4B005EBF7C /* Main.storyboard */; };
 		064C27D51EA6FB4B005EBF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064C27D41EA6FB4B005EBF7C /* Assets.xcassets */; };
 		064C27D81EA6FB4B005EBF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064C27D61EA6FB4B005EBF7C /* LaunchScreen.storyboard */; };
+		064C27E41EA704A8005EBF7C /* blackBgColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 064C27E21EA704A8005EBF7C /* blackBgColor@2x.png */; };
+		064C27E51EA704A8005EBF7C /* blackBgColor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 064C27E31EA704A8005EBF7C /* blackBgColor@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		064C27D41EA6FB4B005EBF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		064C27D71EA6FB4B005EBF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		064C27D91EA6FB4B005EBF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064C27E21EA704A8005EBF7C /* blackBgColor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackBgColor@2x.png"; sourceTree = "<group>"; };
+		064C27E31EA704A8005EBF7C /* blackBgColor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackBgColor@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,21 @@
 				064C27CD1EA6FB4B005EBF7C /* AppDelegate.swift */,
 				064C27CF1EA6FB4B005EBF7C /* ViewController.swift */,
 				064C27D11EA6FB4B005EBF7C /* Main.storyboard */,
+				064C27E11EA704A8005EBF7C /* res */,
 				064C27D41EA6FB4B005EBF7C /* Assets.xcassets */,
 				064C27D61EA6FB4B005EBF7C /* LaunchScreen.storyboard */,
 				064C27D91EA6FB4B005EBF7C /* Info.plist */,
 			);
 			path = AppStoreComment;
+			sourceTree = "<group>";
+		};
+		064C27E11EA704A8005EBF7C /* res */ = {
+			isa = PBXGroup;
+			children = (
+				064C27E21EA704A8005EBF7C /* blackBgColor@2x.png */,
+				064C27E31EA704A8005EBF7C /* blackBgColor@3x.png */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064C27E51EA704A8005EBF7C /* blackBgColor@3x.png in Resources */,
 				064C27D81EA6FB4B005EBF7C /* LaunchScreen.storyboard in Resources */,
+				064C27E41EA704A8005EBF7C /* blackBgColor@2x.png in Resources */,
 				064C27D51EA6FB4B005EBF7C /* Assets.xcassets in Resources */,
 				064C27D31EA6FB4B005EBF7C /* Main.storyboard in Resources */,
 			);
